@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.101 s <<< FAILURE! -- in testRunner.RunnerTest
+Google Search Functionality.User can search for a keyword -- Time elapsed: 4.657 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.SearchSteps.the_page_title_should_contain(SearchSteps.java:39)
+	at ✽.the page title should contain "MIT ADT University"(file:///C:/Users/attha/eclipse-workspace/GitHubActionsMicroproject/src/test/resources/features/GoogleSearch.feature:6)
+
